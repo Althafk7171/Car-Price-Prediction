@@ -111,15 +111,17 @@ The models were evaluated using:
 | RMSE | Root Mean Square Error |
 | R² Score | Measures how well the model explains price variation |
 
-The best-performing model was selected based on RMSE, MAE, and R² score.
-
 ---
 
 ## Final Model
 
-The final model was selected based on evaluation results from train-test split and cross-validation.
+The final selected model is:
 
-The project demonstrates that machine learning can effectively estimate used car prices by learning patterns from vehicle age, mileage, fuel type, transmission, and ownership-related features.
+```text
+Linear Regression
+```
+
+Linear Regression performed best among the tested models based on evaluation metrics such as RMSE, MAE, and R² score. The dataset showed strong linear relationships between important features such as car age, kilometers driven, and price, making Linear Regression suitable for this project.
 
 ---
 
@@ -239,7 +241,7 @@ Run all cells to reproduce the analysis and model results.
 
 The project compared Linear Regression, Ridge Regression, Lasso Regression, Random Forest Regressor, and HistGradientBoosting Regressor.
 
-The models were evaluated using RMSE, MAE, and R² score. The best-performing model was selected based on evaluation results and cross-validation performance.
+Linear Regression achieved the best performance among the tested models based on evaluation metrics such as RMSE, MAE, and R² score.
 
 Key factors influencing used car prices include:
 
