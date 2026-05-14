@@ -1,12 +1,11 @@
 # Images
 
-This folder contains visualization screenshots and model result images from the Car Price Prediction project.
+This folder contains visualization screenshots generated during the Car Price Prediction project.
 
 ## Files
 
-- `price_distribution.png` - Distribution of used car prices in the dataset.
-- `kms_driven_distribution.png` - Distribution of kilometers driven by cars.
-- `age_price_relationship.png` - Relationship between car age and selling price.
-- `fuel_type_distribution.png` - Distribution of cars by fuel type.
-- `transmission_price_comparison.png` - Price comparison between manual and automatic transmission cars.
-- `model_comparison.png` - Comparison of machine learning models using evaluation metrics such as RMSE, MAE, or R² score.
+- `price_distribution.png` - Distribution of original used car prices in the dataset.
+- `log_price_distribution.png` - Distribution of car prices after applying log transformation.
+- `correlation_heatmap.png` - Pairwise correlation heatmap showing relationships between numerical features.
+- `kms_driven_vs_price.png` - Scatter plot showing the relationship between kilometers driven and car price.
+- `age_vs_price.png` - Scatter plot showing the relationship between car age and selling price.
